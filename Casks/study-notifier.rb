@@ -1,12 +1,12 @@
 cask "study-notifier" do
-  version "1.0.0"
+  version "1.0.1"
 
   if Hardware::CPU.arm?
     url "https://github.com/tanner-doorlist/research/releases/download/v#{version}/Study-Notifier-#{version}-arm64.dmg"
-    sha256 "5ac68586c634f1410edec3ab51d21db601678ef2836c10f7e8310bc56e3516cf"
+    sha256 "9138a73b16fdb5a928b9849d7d12b582201fabbdd475b5c0756c747a8ccff5d0"
   else
     url "https://github.com/tanner-doorlist/research/releases/download/v#{version}/Study-Notifier-#{version}-x64.dmg"
-    sha256 "d6b4549b550a9cd91353ca57372714125a1d598f9599ceb67379574e85a250e0"
+    sha256 "e98dd93288f471ab4cb64cd98ca9dae9e21f8bab22c9515462706b1b288a9d54"
   end
 
   name "Study Notifier"

@@ -1,9 +1,9 @@
 class LogKnowledge < Formula
   desc "CLI for logging engineering knowledge to Knowledge Scribe"
   homepage "https://github.com/tanner-doorlist/research"
-  url "https://github.com/tanner-doorlist/research/releases/download/v1.0.3/logKnowledge"
+  url "https://github.com/tanner-doorlist/research/releases/download/v1.0.4/logKnowledge"
   sha256 "9cb154d0bb7f9b730c2fc32dfb7dddb720c776138e4e80e360fe7c95f5a251ac"
-  version "1.0.3"
+  version "1.0.4"
   license "MIT"
 
   depends_on "curl"
